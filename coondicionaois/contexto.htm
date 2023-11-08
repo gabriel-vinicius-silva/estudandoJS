@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estrutura Condicional</title>
+</head>
+<body>
+    <script>
+        function perginta() {
+            var pergunta = prompt("Hoje chove?");
+
+            if (pergunta !== 'sim') {
+                alert("Iremos à praia.");
+            } else {
+                alert("Iremos ao shopping.");
+            }
+        }
+    </script>
+
+    <h1>Estruturas Condicionais em JavaScript</h1>
+    <p>SE (if) e SENÃO (else) são estruturas condicionais.</p>
+
+    <h4>Exemplo:</h4>
+    <p>
+        SE (if) chover, vamos ao shopping.<br>
+        SENÃO (else) iremos à praia.
+    </p>
+
+    <h5>Exemplo em JavaScript:</h5>
+    <pre>
+        if (chover === true) {
+            iremos ao shopping
+        } else {
+            iremos à praia
+        }
+    </pre>
+
+    <button onclick="perginta()">Verificar Condição</button>
+</body>
+</html>
