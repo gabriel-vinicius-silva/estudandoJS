@@ -3,49 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Estruturas para Tratamento de Exceções</title>
 </head>
 <body style="background-color: rgb(0, 0, 0);">
         <script src="erro.js"></script>
 
 
-
+<div class="aling-center" style="text-decoration: aqua;">
     alertando erros com JS
     
     
     <h1 style="color: aliceblue;"> 
         
-        olá dev; hoje vamos ver como saber onde estao os erros ou como alertalos com JS 
+        olá dev; hoje vamos ver como saber onde estao os erros , do seu codigo ,  ou como alerta-los com o  JS 
 
     </h1>
     <pre style="text-transform: uppercase;font-size: large; background-color: black;color: aliceblue;">
 
-codigo JS:
 
 
 
 Primeira mente , devemos saber o que é try , try significa algo como tente pede para a maquina tentar fazer algo
 
 
-
-
-//try significa tente.
-
-
-
-        try{
+    try{
     
-    //definimos a primeira variavel ,  b=x                  
-    
-    var x=a; 
-    var b =x ;
-    
-    alert(b)
-             
+        //definimos a primeira variavel ,  b=x                  
+        
+        var x=a; 
+        var b =x ;
+        
+        alert(b)
+                
 
-       // o catch serve para se o codigo que se esta sendo testado ,esta certo se tiver errado ele fara oque esta no catch
+        // o catch serve para se o codigo que se esta sendo testado ,esta certo se tiver errado ele fara oque esta no catch
 
- }catch(erroNaLinha3ou4) {
+        }   catch(erroNaLinha3ou4) {
 
         alert(erroNaLinha3ou4.toString // aparecera um alerta na tela se der errdo(
         ))
@@ -55,5 +48,10 @@ Primeira mente , devemos saber o que é try , try significa algo como tente pede
 
 
     </pre>
+<h1 style="color: aliceblue;"> Ao executar o codigo aparecera esse alerta</h1>
+<img src="imgErro.PNG" />
+</div>
+
+
 </body>
 </html>
